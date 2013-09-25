@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Asteroids" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AppTheme.title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/action_play"
+        style="@style/AppTheme.button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_play" />
+
+    <Button
+        android:id="@+id/action_settings"
+        style="@style/AppTheme.button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings" />
+
+    <Button
+        android:id="@+id/action_about"
+        style="@style/AppTheme.button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_about" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/AppTheme.button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_exit"
+        android:onClick="exit" />
+
+</LinearLayout>

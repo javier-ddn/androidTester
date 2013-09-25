@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="main_preferences" >
+
+    <CheckBoxPreference
+        android:key="music"
+        android:summary="@string/music_summary"
+        android:title="@string/music_title" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/graphic_types"
+        android:entryValues="@array/graphic_types_values"
+        android:key="graphics"
+        android:title="@string/graphics_title" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="fragments"
+        android:summary="@string/fragments_summary"
+        android:title="@string/fragments_title" />
+
+</PreferenceScreen>
