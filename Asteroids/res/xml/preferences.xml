@@ -3,9 +3,9 @@
     android:key="main_preferences" >
 
     <CheckBoxPreference
-        android:key="music"
-        android:summary="@string/music_summary"
-        android:title="@string/music_title" />
+        android:key="music_switch"
+        android:summary="@string/music_switch_summary"
+        android:title="@string/music_switch_title" />
 
     <ListPreference
         android:defaultValue="1"
@@ -19,5 +19,25 @@
         android:key="fragments"
         android:summary="@string/fragments_summary"
         android:title="@string/fragments_title" />
+
+    <PreferenceCategory android:title="@string/multiplayer_pref_title" >
+        <CheckBoxPreference
+            android:key="multiplayer_switch"
+            android:summary="@string/multiplayer_switch_summary"
+            android:title="@string/multiplayer_switch" />
+
+        <EditTextPreference
+            android:defaultValue="2"
+            android:key="multiplayer_max_players"
+            android:summary="@string/multiplayer_max_players_summary"
+            android:title="@string/multiplayer_max_players" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/connection_types"
+            android:entryValues="@array/connection_types_values"
+            android:key="connection_type"
+            android:title="@string/connection_type_title" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
