@@ -38,11 +38,11 @@
         android:text="@string/action_about" />
 
     <Button
-        android:id="@+id/exit"
+        android:id="@+id/ranking"
         style="@style/AppTheme.button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/action_exit"
-        android:onClick="exit" />
+        android:text="@string/ranking_action"
+        android:onClick="showRank" />
 
 </LinearLayout>

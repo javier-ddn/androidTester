@@ -14,6 +14,7 @@ public class Asteroids extends Activity {
 
 	private Button aboutButton;
 	private Button preferencesButton;
+	public static RankingInterface rankingInterface = new RankingArray();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +71,11 @@ public class Asteroids extends Activity {
 
 	public void exit(View view) {
 		finish();
+	}
+
+	public void showRank(View view) {
+		Intent intent = new Intent(this, Rank.class);
+		startActivity(intent);
 	}
 
 }

@@ -20,5 +20,7 @@
     <string name="multiplayer_max_players">Máximun Number Of Players</string>
     <string name="multiplayer_max_players_summary">Set the máximun number of players</string>
     <string name="connection_type_title">Connection Type</string>
-
+    <string name="ranking_action">Ranking</string>
+    <string name="title_activity_rank">Rank</string>
+	<string name="noRanks">No Ranks</string>
 </resources>

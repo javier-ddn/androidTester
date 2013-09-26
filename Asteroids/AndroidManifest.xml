@@ -31,6 +31,10 @@
             android:name="com.game.asteroids.Preferences"
             android:label="@string/title_activity_preferences" >
         </activity>
+        <activity
+            android:name="com.game.asteroids.Rank"
+            android:label="@string/title_activity_rank" >
+        </activity>
     </application>
 
 </manifest>
